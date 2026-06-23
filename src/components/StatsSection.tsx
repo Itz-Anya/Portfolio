@@ -6,7 +6,7 @@ const stats = [
   { label: "Projects Built", value: 10, icon: FolderGit2, suffix: "+", color: "#b06eff" },
   { label: "Lines of Code", value: 5000, icon: Code2, suffix: "+", color: "#00dcd8" },
   { label: "Cups of Coffee", value: 200, icon: Coffee, suffix: "+", color: "#ff9f43" },
-  { label: "GitHub Stars", value: 15, icon: Star, suffix: "+", color: "#ffd700" },
+  { label: "GitHub Stars", value: 50, icon: Star, suffix: "+", color: "#ffd700" },
 ];
 
 const AnimatedNumber = ({ target, suffix }: { target: number; suffix: string }) => {
