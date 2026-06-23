@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#060812" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#060812" />
+    <meta name="description" content="Anya's portfolio — a 16-year-old developer building things for the web." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/svg+xml" href="%PUBLIC_URL%/favicon.ico" />
+    <title>Anya · Portfolio</title>
+    <!-- Force dark mode before React mounts — no flash, no cache -->
+    <script>
+      (function() {
+        try { localStorage.removeItem('theme'); } catch(e) {}
+        document.documentElement.classList.add('dark');
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
