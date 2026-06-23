@@ -1,25 +1,102 @@
 <!doctype html>
 <html lang="en" class="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#060812" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" content="#060812" />
-    <meta name="description" content="Anya's portfolio" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" type="image/svg+xml" href="%PUBLIC_URL%/favicon.ico" />
-    <title>Anya · Portfolio</title>
-    <!-- Force dark mode before React mounts — no flash, no cache -->
-    <script>
-      (function() {
-        try { localStorage.removeItem('theme'); } catch(e) {}
-        document.documentElement.classList.add('dark');
-      })();
-    </script>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+  <!-- Primary Meta Tags -->
+  <title>Anya · Portfolio</title>
+  <meta name="title" content="Anya · Portfolio" />
+  <meta name="description" content="Official portfolio of Anya. Explore projects, websites, applications, open-source work, creative designs, and development journey." />
+  <meta name="keywords" content="Anya, Portfolio, Developer, Web Developer, React Developer, Frontend Developer, Full Stack Developer, JavaScript, TypeScript, Python, HTML, CSS, GitHub, Open Source, Projects, Karnataka, India" />
+  <meta name="author" content="Anya" />
+  <meta name="creator" content="Anya" />
+  <meta name="publisher" content="Anya" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="language" content="English" />
+  <meta name="revisit-after" content="7 days" />
+  <meta name="rating" content="general" />
+  <meta name="distribution" content="global" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://itz-anya.vercel.app/" />
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#060812" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#060812" />
+  <meta name="color-scheme" content="dark" />
+
+  <!-- Icons -->
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/a.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/a.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Anya Portfolio" />
+  <meta property="og:title" content="Anya · Portfolio" />
+  <meta property="og:description" content="Official portfolio of Anya showcasing projects, skills, websites, and creative work." />
+  <meta property="og:url" content="https://itz-anya.vercel.app/" />
+  <meta property="og:image" content="https://itz-anya.vercel.app/a.png" />
+  <meta property="og:image:secure_url" content="https://itz-anya.vercel.app/a.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Anya · Portfolio" />
+  <meta name="twitter:description" content="Official portfolio of Anya showcasing projects, skills, websites, and creative work." />
+  <meta name="twitter:image" content="https://itz-anya.vercel.app/a.png" />
+  <meta name="twitter:creator" content="@SylveonHere" />
+
+  <!-- PWA -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Anya Portfolio" />
+  <meta name="application-name" content="Anya Portfolio" />
+
+  <!-- Microsoft -->
+  <meta name="msapplication-TileColor" content="#060812" />
+  <meta name="msapplication-TileImage" content="%PUBLIC_URL%/a.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Anya",
+    "url": "https://itz-anya.vercel.app/",
+    "image": "https://itz-anya.vercel.app/a.png",
+    "jobTitle": "Developer",
+    "sameAs": [
+      "https://github.com/Itz-Anya"
+    ]
+  }
+  </script>
+
+  <!-- Force dark mode before React mounts -->
+  <script>
+    (function () {
+      try {
+        localStorage.removeItem('theme');
+      } catch (e) {}
+      document.documentElement.classList.add('dark');
+    })();
+  </script>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
 </html>
+
