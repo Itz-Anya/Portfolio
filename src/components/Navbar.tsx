@@ -12,16 +12,26 @@ const links = [
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+    setOpen(false);
+  };
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-30 glass-strong">
       <div className="max-w-5xl mx-auto flex items-center justify-between px-4 sm:px-6 py-3">
-        <a
-          href="#"
-          className="font-display text-lg sm:text-xl font-bold transition-all duration-300"
+        <button
+          type="button"
+          onClick={scrollToTop}
+          className="font-display text-lg sm:text-xl font-bold transition-all duration-300 bg-transparent border-none cursor-pointer"
           style={{ letterSpacing: "0.01em" }}
+          aria-label="Go to top"
         >
           <span className="text-gradient italic">Anya</span>
-        </a>
+        </button>
 
         <div className="hidden md:flex items-center gap-8">
           {links.map((l) => (
@@ -33,7 +43,10 @@ const Navbar = () => {
               {l.label}
               <span
                 className="absolute -bottom-0.5 left-0 h-px w-0 group-hover:w-full transition-all duration-300"
-                style={{ background: "linear-gradient(90deg, hsl(var(--primary)), hsl(var(--secondary)))" }}
+                style={{
+                  background:
+                    "linear-gradient(90deg, hsl(var(--primary)), hsl(var(--secondary)))",
+                }}
               />
             </a>
           ))}
@@ -43,11 +56,16 @@ const Navbar = () => {
         <div className="flex md:hidden items-center gap-2">
           <ThemeToggle />
           <button
+            type="button"
             onClick={() => setOpen(!open)}
             className="p-2 text-foreground touch-manipulation"
-            aria-label="Menu"
+            aria-label={open ? "Close menu" : "Open menu"}
           >
-            {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            {open ? (
+              <X className="w-5 h-5" />
+            ) : (
+              <Menu className="w-5 h-5" />
+            )}
           </button>
         </div>
       </div>
