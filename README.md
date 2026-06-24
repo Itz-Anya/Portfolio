@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./public/a.png" width="180" alt="Anya Portfolio"/>
+<img src="./public/a.png" width="200" alt="Anya Portfolio"/>
 
 # ✦ Anya Portfolio ✦
 
@@ -8,10 +8,7 @@
 
 <br>
 
-![Website](https://img.shields.io/badge/Website-Live-black?style=for-the-badge&logo=vercel)
-![React](https://img.shields.io/badge/React-Frontend-black?style=for-the-badge&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-Powered-black?style=for-the-badge&logo=typescript)
-![Open Source](https://img.shields.io/badge/Open%20Source-GitHub-black?style=for-the-badge&logo=github)
+
 
 <br>
 
@@ -46,15 +43,7 @@ modern aesthetics, and a passion for creating memorable web experiences.
 
 </div>
 
-<br>
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Itz-Anya&theme=github-dark&hide_border=true"/>
-
-</div>
-
-<br>
 
 <div align="center">
 
