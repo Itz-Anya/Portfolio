@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./public/a.png" width="200" alt="Anya Portfolio"/>
+<img src="https://raw.githubusercontent.com/Itz-Anya/Portfolio/main/public/file_0000000052788208b9e567bfe68b9efa.jpg" width="90%" alt="Anya Portfolio"/>
 
-# ✦ Anya Portfolio ✦
+
 
 ### Crafting digital experiences with creativity, elegance, and code.
 
