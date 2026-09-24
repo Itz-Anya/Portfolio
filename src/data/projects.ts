@@ -116,4 +116,34 @@ export const projects: Project[] = [
     color: 'from-green-600/40 to-emerald-600/40',
     liveUrl: 'https://saavnx.vercel.app/',
   },
+  {
+    title: 'Color Pallet',
+    description: 'A fast, open-source color toolkit for developers and designers. Explore colors, build palettes and gradients, convert formats and check contrast. Runs entirely in your browser.',
+    image: 'https://files.catbox.moe/66547c.png',
+    tags: ['React', 'Tailwindcss', 'Lucide icons'],
+    color: 'from-fuchsia-400/40 to-purple-400/40',
+    liveUrl: 'https://devcolors.vercel.app/',
+    repoUrl: 'https://github.com/Itz-Murali/Color-Pallet',
+  },
+  {
+    title: 'Social Downloader',
+    description:
+      'A single-page React app built around one idea: one field should be enough. Drop in a YouTube link, an Instagram reel, a Pinterest pin, or just plain search words, and the app detects the platform automatically and resolves the original file: video, audio, or image, with no account, no queue, and no watermark tax.',
+    image: 'https://files.catbox.moe/tt4on4.png',
+    tags: ['React', 'Vercel', 'Anya Apis'],
+    color: 'from-teal-400/40 to-emerald-400/40',
+    liveUrl: 'https://social-fetch.vercel.app/',
+    repoUrl: 'https://github.com/Itz-Murali/Social-Downloader-Web',
+  },
+  {
+    title: 'Code Quote',
+    description:
+      'Renders a random programming quote as a self-contained SVG card on every request. Drop one image tag into your README and it just works: no JavaScript, no database, no account.',
+    image: 'https://raw.githubusercontent.com/Itz-Anya/Code-Quote/main/public/og-image.jpg',
+    tags: ['JavaScript', 'Vercel'],
+    color: 'from-yellow-400/40 to-amber-400/40',
+    liveUrl: 'https://codequote.vercel.app/',
+    repoUrl: 'https://github.com/Itz-Anya/Code-Quote',
+  },
 ];
+
