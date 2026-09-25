@@ -145,5 +145,14 @@ export const projects: Project[] = [
     liveUrl: 'https://codequote.vercel.app/',
     repoUrl: 'https://github.com/Itz-Anya/Code-Quote',
   },
+  {
+    title: 'Github Stats',
+    description: 'GitHub Stats is an open-source SVG card API you can embed anywhere GitHub READMEs, personal sites, portfolios, and more. It fetches live data from the GitHub API, renders it into a beautiful card, and returns a pure SVG you can drop into any Markdown image tag.',
+    image: 'https://raw.githubusercontent.com/Itz-Anya/Github-Stats/main/public/file_000000003b20820899cd1557953562e9.jpg',
+    tags: ['TypeScript', 'Vercel', 'Github Api'],
+    color: 'from-pink-400/40 to-amber-400/40',
+    liveUrl: 'https://anya-github-stats.vercel.app/',
+    repoUrl: 'https://github.com/Itz-Anya/Github-Stats',
+  },
 ];
 
