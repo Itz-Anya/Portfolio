@@ -36,29 +36,38 @@ export const AboutSkeleton = () => (
 );
 
 export const SkillsSkeleton = () => {
-  const groupSizes = [5, 2, 1];
+  // hehe
+  const groupSizes = [8, 6, 4];
 
   return (
-    <div className="space-y-8">
-      {groupSizes.map((count, g) => (
-        <div key={g}>
-          <SkeletonText className="w-36 h-4 mb-4" />
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-            {Array.from({ length: count }).map((_, i) => (
-              <div key={i} className="rounded-2xl border border-border/50 bg-card/40 p-4">
-                <div className="flex items-center gap-3">
-                  <SkeletonCircle className="w-8 h-8 shrink-0" />
-                  <div className="flex-1 min-w-0 space-y-2">
-                    <SkeletonText className="w-3/4" />
-                    <SkeletonText className="w-1/2" />
+    <div>
+      <div className="-mx-1 mb-6 flex gap-2 overflow-hidden px-1 pb-2 sm:flex-wrap sm:justify-center">
+        {['w-14', 'w-24', 'w-32', 'w-24', 'w-20', 'w-16'].map((w, i) => (
+          <SkeletonBlock key={i} className={`h-7 shrink-0 rounded-full ${w}`} />
+        ))}
+      </div>
+
+      <div className="space-y-8 md:space-y-10">
+        {groupSizes.map((count, g) => (
+          <div key={g}>
+            <SkeletonText className="w-36 h-4 mb-4" />
+            <div className="grid grid-cols-1 min-[400px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2.5 sm:gap-3 md:gap-4">
+              {Array.from({ length: count }).map((_, i) => (
+                <div key={i} className="rounded-2xl border border-border/50 bg-card/40 p-3 sm:p-4">
+                  <div className="flex items-center gap-3">
+                    <SkeletonCircle className="w-8 h-8 md:w-9 md:h-9 shrink-0" />
+                    <div className="flex-1 min-w-0 space-y-2">
+                      <SkeletonText className="w-3/4" />
+                      <SkeletonText className="w-1/2" />
+                    </div>
                   </div>
+                  <SkeletonBlock className="mt-3 h-1 rounded-full" />
                 </div>
-                <SkeletonBlock className="mt-3 h-1 rounded-full" />
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
@@ -89,3 +98,4 @@ export const ContactSkeleton = () => (
     ))}
   </div>
 );
+
