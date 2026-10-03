@@ -9,7 +9,7 @@ export const PROFILE = {
   status: "Probably eating or sleeping",
   telegram: "https://t.me/SylveonHere",
   telegramHandle: "@SylveonHere",
-  instagram: "https://instagram.com/itz.anya.m",
+  instagram: "https://instagram.com/itz.mio.haimiya",
   email: "mailto:Itz-Anya@outlook.com",
   github: "https://github.com/Itz-Anya",
 } as const;
