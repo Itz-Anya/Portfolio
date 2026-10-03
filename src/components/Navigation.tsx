@@ -84,15 +84,20 @@ const Navigation = () => {
       >
         <div className="max-w-6xl mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
-            <motion.a
-              href="#home"
-              onClick={(e) => scrollToSection(e, '#home')}
-              className="flex items-center gap-2 text-xl font-bold font-display text-primary"
+            <motion.a  
+              href="#home"  
+              onClick={(e) => scrollToSection(e, '#home')}  
+              className="flex items-center text-xl font-bold font-display text-primary"  
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-            >
-              <Heart className="w-6 h-6 fill-primary" />
-              <span className="hidden sm:inline">Anya</span>
+              >  
+              <img 
+                src="/a.png"    
+                alt="Anya"    
+                className="w-8 h-8 object-contain"  
+                />
+
+    
             </motion.a>
 
             <div className="hidden md:flex items-center gap-1">
