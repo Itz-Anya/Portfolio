@@ -160,7 +160,7 @@ export const projects: Project[] = [
     image: 'https://raw.githubusercontent.com/Itz-Anya/Image-Size-Reducer/main/static/preview.png',
     tags: ['TypeScript', 'Vercel', 'SvelteKit'],
     color: 'from-green-400/40 to-amber-400/40',
-    liveUrl: 'https://image-size-reducer.vercel.app/',
+    liveUrl: 'https://img-size-reducer.vercel.app/',
     repoUrl: 'https://github.com/Itz-Anya/Image-Size-Reducer',
   },
 ];
