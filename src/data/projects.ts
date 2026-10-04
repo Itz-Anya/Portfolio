@@ -154,5 +154,14 @@ export const projects: Project[] = [
     liveUrl: 'https://anya-github-stats.vercel.app/',
     repoUrl: 'https://github.com/Itz-Anya/Github-Stats',
   },
+  {
+    title: 'Image Size Reducer Web',
+    description: 'Image Size Reducer is a free, open-source image compression tool built to make image optimization simple, fast, and accessible. It allows users to reduce image file sizes directly in their browsers while maintaining control over quality and output settings.',
+    image: 'https://raw.githubusercontent.com/Itz-Anya/Image-Size-Reducer/main/static/preview.png',
+    tags: ['TypeScript', 'Vercel', 'SvelteKit'],
+    color: 'from-green-400/40 to-amber-400/40',
+    liveUrl: 'https://image-size-reducer.vercel.app/',
+    repoUrl: 'https://github.com/Itz-Anya/Image-Size-Reducer',
+  },
 ];
 
