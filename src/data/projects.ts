@@ -111,7 +111,7 @@ export const projects: Project[] = [
   {
     title: 'SaavnxApi',
     description: 'Unofficial JioSaavn REST API. Node.js and Express on the backend, Vite and React on the frontend, bundled for Vercel serverless.',
-    image: 'https://anya-file-host.vercel.app/84mi4r4xoj',
+    image: 'https://anya-file-host.vercel.app/1793200589465.png',
     tags: ['TypeScript', 'Next.js'],
     color: 'from-green-600/40 to-emerald-600/40',
     liveUrl: 'https://saavnx.vercel.app/',
