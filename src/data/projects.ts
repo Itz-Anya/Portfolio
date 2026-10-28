@@ -74,7 +74,7 @@ export const projects: Project[] = [
   {
     title: 'Manga Hub',
     description: 'A modern manga reader for discovering and reading your favourite manga.',
-    image: 'https://anya-file-host.vercel.app/cznc5nha4b',
+    image: 'https://anya-file-host.vercel.app/1793190827446.png',
     tags: ['TypeScript', 'Reader'],
     color: 'from-amber-400/40 to-orange-400/40',
     liveUrl: 'https://anya-manga-hub.vercel.app/',
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     title: 'Anya File Hosting Web',
     description:
       'A fast, minimal file and image hosting service built on Next.js, Cloudflare D1, and a clean short-link API.',
-    image: 'https://anya-file-host.vercel.app/o42ywwvug1',
+    image: 'https://anya-file-host.vercel.app/1793191828689.jpg',
     tags: ['TypeScript', 'API', 'Cloudflare'],
     color: 'from-blue-400/40 to-cyan-400/40',
     liveUrl: 'https://anya-file-host.vercel.app/',
