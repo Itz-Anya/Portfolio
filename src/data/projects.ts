@@ -83,7 +83,7 @@ export const projects: Project[] = [
   {
     title: 'Space Atlas',
     description: 'A free, open-source atlas of the observable universe, built entirely on the web.',
-    image: 'https://raw.githubusercontent.com/Itz-Anya/Space-Atlas/blob/main/static/assets/og-preview.png',
+    image: 'https://raw.githubusercontent.com/Itz-Anya/Space-Atlas/main/static/assets/og-preview.png',
     tags: ['Svelte', 'Data Viz'],
     color: 'from-indigo-400/40 to-slate-400/40',
     liveUrl: 'https://spaceatlas.vercel.app/',
