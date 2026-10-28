@@ -74,7 +74,7 @@ export const projects: Project[] = [
   {
     title: 'Manga Hub',
     description: 'A modern manga reader for discovering and reading your favourite manga.',
-    image: 'https://anya-file-host.vercel.app/1793190827446.png',
+    image: 'https://raw.githubusercontent.com/Itz-Anya/Manga-Hub/main/public/pr.jpg',
     tags: ['TypeScript', 'Reader'],
     color: 'from-amber-400/40 to-orange-400/40',
     liveUrl: 'https://anya-manga-hub.vercel.app/',
