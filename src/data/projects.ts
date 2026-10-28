@@ -103,7 +103,7 @@ export const projects: Project[] = [
     title: 'Anya Music Web',
     description:
       'Premium themed music streaming web app built with Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Zustand, and TanStack Query. Powered by the Saavnx API.',
-    image: 'https://anya-file-host.vercel.app/d2k01s320w',
+    image: 'https://anya-file-host.vercel.app/1793198425469.jpg',
     tags: ['TypeScript', 'SaavnxApi'],
     color: 'from-pink-600/40 to-fuchsia-600/40',
     liveUrl: 'https://anya-music-web.vercel.app/',
