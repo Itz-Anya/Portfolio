@@ -111,10 +111,11 @@ export const projects: Project[] = [
   {
     title: 'SaavnxApi',
     description: 'Unofficial JioSaavn REST API. Node.js and Express on the backend, Vite and React on the frontend, bundled for Vercel serverless.',
-    image: 'https://anya-file-host.vercel.app/1793200589465.png',
+    image: 'https://raw.githubusercontent.com/Itz-Anya/Saavn-Api/main/public/images/m.png', 
     tags: ['TypeScript', 'Next.js'],
     color: 'from-green-600/40 to-emerald-600/40',
     liveUrl: 'https://saavnx.vercel.app/',
+    repoUrl: 'https://github.com/Itz-Anya/Saavn-Api',
   },
   {
     title: 'Color Pallet',
