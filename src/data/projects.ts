@@ -155,5 +155,33 @@ export const projects: Project[] = [
     liveUrl: 'https://img-size-reducer.vercel.app/',
     repoUrl: 'https://github.com/Itz-Anya/Image-Size-Reducer',
   },
+  {
+    title: 'Social Downloader Web',
+    description: 'Social Downloader is a single-page React app built around one idea: one field should be enough. Drop in a YouTube link, an Instagram reel, a Pinterest pin, or just plain search words',
+    image: 'https://i.ibb.co/x8dQdckK/IMG-20261105-203609-902.jpg',
+    tags: ['TypeScript', 'Vercel', 'Anya Apis'],
+    color: 'from-yellow-400/40 to-amber-400/40',
+    liveUrl: 'https://social-fetch.vercel.app/',
+    repoUrl: 'https://github.com/Itz-Murali/Social-Downloader-Web',
+  },
+    {
+    title: 'Void Type Game',
+    description: 'Void Type is A fast, cinematic 3D space-combat typing game. Every asteroid, enemy ship and supply crate carries a word. Type it and your ship fires. Faster, cleaner typing clears more of the sky', 
+    image: 'https://i.ibb.co/cKYSXxtT/IMG-20261108-120005-467.jpg',
+    tags: ['Vue', 'Vercel', 'Three js'],
+    color: 'from-green-400/40 to-amber-400/40',
+    liveUrl: 'https://void-type.vercel.app',
+    repoUrl: 'https://github.com/Itz-Murali/Void-Type',
+  },
+  {
+    title: 'Nebulon Game',
+    description: 'Nebulon is a space-flight game with no backend and no account. You pilot a ship through an endless field of asteroids, wrecks, comets and energy anomalies, collect energy to build your score, and push the hyperdrive when you need distance. One hit ends a run, so the game rewards reading the field early and moving smoothly.', 
+    image: 'https://raw.githubusercontent.com/Itz-Murali/Nebulon/main/public/brand/og-image.jpg',
+    tags: ['TypeScript', 'Vercel', 'Three js'],
+    color: 'from-green-400/40 to-amber-400/40',
+    liveUrl: 'https://nebulon-frontier.vercel.app/',
+    repoUrl: 'https://github.com/Itz-Murali/Nebulon',
+  },
+
 ];
 
