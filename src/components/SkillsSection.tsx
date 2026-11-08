@@ -201,9 +201,7 @@ const SkillsSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-2 font-display text-gradient">
             My Tech Skills
           </h2>
-          <p className="text-center text-muted-foreground mb-2 text-sm md:text-base">
-            Things I actually use. No fake percentages, promise.
-          </p>
+          
           <p className="text-center text-xs text-muted-foreground/80 mb-6">
             {totalSkills} tools across {groups.length} areas
           </p>
