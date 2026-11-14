@@ -45,7 +45,7 @@ const AboutSection = () => {
           <RevealSection skeleton={<AboutSkeleton />}>
             <p className="text-base md:text-lg text-foreground/80 leading-relaxed text-center mb-4">
               Hey! I'm <span className="font-semibold text-primary">Anya</span> (Ananya if you're being
-              formal), a 16-year-old high school student from Karnataka, India, who somehow ended up
+              formal), a 17-year-old student from Karnataka, India, who somehow ended up
               spending more time in a code editor than in textbooks.{' '}
               <Sparkles className="inline w-4 h-4 text-primary" />
             </p>
