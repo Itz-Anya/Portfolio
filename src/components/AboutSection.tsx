@@ -5,7 +5,7 @@ import { AboutSkeleton } from '@/components/SectionSkeletons';
 
 const quickFacts = [
   { label: 'Name', value: 'Ananya', icon: Heart },
-  { label: 'Age', value: '16', icon: Sparkles },
+  { label: 'Age', value: '17', icon: Sparkles },
   { label: 'Currently', value: 'High School Student', icon: GraduationCap },
   { label: 'Based in', value: 'Karnataka, India', icon: MapPin },
 ];
