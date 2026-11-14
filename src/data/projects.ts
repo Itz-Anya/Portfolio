@@ -182,6 +182,13 @@ export const projects: Project[] = [
     liveUrl: 'https://nebulon-frontier.vercel.app/',
     repoUrl: 'https://github.com/Itz-Murali/Nebulon',
   },
+  {
+    title: 'Aevora Mail',
+    description: 'Aevora Mail is a temporary email provider website.. ', 
+    image: 'https://aevora-mail.vercel.app/og-image.jpg',
+    tags: ['TypeScript', 'Vercel', 'Vite'],
+    liveUrl: 'https://aevora-mail.vercel.app/',
+  },
 
 ];
 
